@@ -5,6 +5,9 @@ body {
     font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1, h2, h3	{
@@ -21,9 +24,23 @@ h2	{
 }
 
 header	{
-	background-color: #CCCCCC;
+	background-color: rgba(70,70,70,0.5);
 }
 
 footer {
 	background-color: #00E0EE;
+}
+
+.menu {
+	background-color: #5000EE;
+}
+
+header p {
+	font-size: 120%;
+	color: #FFF;
+	padding: 10px;
+}
+
+main {
+	margin-left: 25%;
 }
